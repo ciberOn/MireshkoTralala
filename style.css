@@ -68,17 +68,20 @@ body{
     padding: 40px;
 }
 
-.img {
-    background: url(".https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2wth_2idEyByzBWrfR_uGjQsUCHGy0ia-w&s/ima.jpg");
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    border-radius: 100px;
-    background-size: cover;
-}
-
 .img:hover {
     transform: rotate(200deg);
     transition: 1000ms;
 }
 
+.link_joke{
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.link_joke:hover{
+    transform: translate(600%, -600%);
+    transition: 300ms;
+}
