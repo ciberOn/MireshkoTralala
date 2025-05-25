@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 450px;
+    background: linear-gradient(rgb(166, 255, 0),rgb(195, 195, 0));
+}
+
+.header_container{
+    color: aliceblue;
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    background: url(./Тралялео\ Тралала.png);
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu_item{
+    margin-right: 30px;
+}
+
+.menu_item:hover{
+    border-bottom: 2px solid white;
+    translate: 1000ms;
+}
+
+.main_container{
+    border: 1px solid rgb(255, 255, 255);
+    min-height: 450px;
+    width: 1040px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 40px;
+    color: whitesmoke;
+    border-radius: 40px;
+    margin-bottom: 40px;
+
+}
+
+.tittle_contacts{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+body{
+    background: linear-gradient(rgba(195, 195, 0));
+}
+
+.section_game{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    border-top: 1px solid white;
+    padding: 40px;
+}
+
+.img {
+    background: url(".https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK2wth_2idEyByzBWrfR_uGjQsUCHGy0ia-w&s/ima.jpg");
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    border-radius: 100px;
+    background-size: cover;
+}
+
+.img:hover {
+    transform: rotate(200deg);
+    transition: 1000ms;
+}
+

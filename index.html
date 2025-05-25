@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="header_container"></div>
+        <div class="logo">
+            <h1 class="tittle">Mireshko</h1>
+            <div class="img"></div>
+            <ul class="menu">
+                <li class="menu_item">Main</li>
+                <li class="menu_item">Game</li>
+                <li class="menu_item">Skills</li>
+                <li class="menu_item">About</li>
+            </ul>
+        </div>
+    </header>
+    <main class="main"></main>
+    <div class="main_container">
+        <section class="contacts_section">
+            <h2 class="tittle_contacts">My contacts</h2>
+            <p class="paragraph_contacts">you can write me on my
+                <span><b>mail</b>:<i>mail@mail.com</i></span><br>
+                <span><b>phone</b>:<i>8-800-555-35-35</i></span><br>
+                <span><b>telegram</b>:<i>@myTg</i></span><br>
+            </p>
+        </section>
+        <section class="section__game">
+                <h3 class="title__game">Play with me</h3>
+                <button class="btn" id="btn">Play</button>
+                <script>
+                    const btn = document.getElementById("btn")
+                    btn.addEventListener("click",()=>{
+                        btn.classList.add("btn__animation")
+                        btn.innerText = Math.floor(Math.random() * 100)
+                    })
+                </script>
+            </section>
+        </main>
+        <footer class="footer"></footer>
+</body>
+
+</html>
